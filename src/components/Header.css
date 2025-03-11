@@ -23,8 +23,8 @@ nav {
 .logo {
   font-size: 2rem;
   font-weight: 700;
-  color: var(--primary-color); /* Assuming you have a primary color variable */
-  text-decoration: none;  /* Removes underline */
+  color: var(--primary-color);
+  text-decoration: none;  
 }
 .logo:hover {
   color: var(--hover-color); /* Optional: add a hover effect */

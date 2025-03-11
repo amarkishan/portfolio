@@ -1,0 +1,166 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .contact {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Section Header */
+  .section-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .section-header h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  .section-header p {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Contact Content Layout */
+  .contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  
+  .contact-info {
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .contact-info h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .contact-info p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .contact-info p strong {
+    color: #007bff;
+  }
+  
+  /* Contact Detail Items */
+  .contact-detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    transition: transform 0.3s ease;
+  }
+  
+  .contact-detail:hover {
+    transform: translateX(5px); /* Slight shift on hover for interactivity */
+  }
+  
+  .contact-icon {
+    font-size: 28px; /* Size for icons (e.g., from react-icons) */
+    margin-right: 15px;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-detail:hover .contact-icon {
+    color: #007bff; /* Change icon color on hover */
+  }
+  
+  .contact-detail a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .contact-detail div {
+    flex: 1;
+  }
+  
+  .contact-detail h4 {
+    font-size: 1rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .contact-detail p {
+    font-size: 0.95rem;
+    color: #666;
+    margin: 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact {
+      padding: 40px 15px;
+    }
+  
+    .section-header h2 {
+      font-size: 2rem;
+    }
+  
+    .section-header p {
+      font-size: 1rem;
+    }
+  
+    .contact-content {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+  
+    .contact-info {
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    .contact-detail {
+      justify-content: center;
+      text-align: left;
+    }
+  
+    .contact-icon {
+      margin-right: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .section-header h2 {
+      font-size: 1.8rem;
+    }
+  
+    .contact-info h2 {
+      font-size: 1.5rem;
+    }
+  
+    .contact-icon {
+      font-size: 24px;
+    }
+  
+    .contact-detail p {
+      font-size: 0.9rem;
+    }
+  }

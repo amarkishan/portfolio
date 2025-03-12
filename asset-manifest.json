@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a44a5cd2.css",
-    "main.js": "/portfolio/static/js/main.2b7347fe.js",
+    "main.js": "/portfolio/static/js/main.c7d0f347.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/logo-test.png": "/portfolio/static/media/logo-test.1635e4c87c4a5b7ebe65.png",
     "static/media/Amar_Vaka_Java_Software_Engineer.docx": "/portfolio/static/media/Amar_Vaka_Java_Software_Engineer.0266ede93990e0fbc7d5.docx",
     "index.html": "/portfolio/index.html",
     "main.a44a5cd2.css.map": "/portfolio/static/css/main.a44a5cd2.css.map",
-    "main.2b7347fe.js.map": "/portfolio/static/js/main.2b7347fe.js.map",
+    "main.c7d0f347.js.map": "/portfolio/static/js/main.c7d0f347.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a44a5cd2.css",
-    "static/js/main.2b7347fe.js"
+    "static/js/main.c7d0f347.js"
   ]
 }

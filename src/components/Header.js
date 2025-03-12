@@ -25,7 +25,7 @@ const Header = () => {
            AV
           </a>
           <ul className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
-            <li><a href="#projects" onClick={() => setMobileMenuOpen(false)}>Projects</a></li>
+            {/* <li><a href="#projects" onClick={() => setMobileMenuOpen(false)}>Projects</a></li> */}
             <li><a href="#about" onClick={() => setMobileMenuOpen(false)}>About</a></li>
             <li><a href="#skills" onClick={() => setMobileMenuOpen(false)}>Skills</a></li>
             <li><a href="#contact" onClick={() => setMobileMenuOpen(false)}>Contact</a></li>

@@ -13,13 +13,13 @@ const Contact = () => {
         <div className="contact-content">
           <center>
             <div className="contact-icons">
-                <a href="mailto:amar.vaka@example.com" aria-label="Email Amar Vaka" className="contact-icon">
+                <a href="mailto:amar.vaka@outlook.com" aria-label="Email Amar Vaka" className="contact-icon">
                     <FaEnvelope />
                 </a>
-                <a href="https://www.linkedin.com/in/amarvaka" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" className="contact-icon">
+                <a href="https://www.linkedin.com/in/avaka/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" className="contact-icon">
                    <FaLinkedin />
                 </a>
-                <a href="https://github.com/amarvaka" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" className="contact-icon">
+                <a href="https://github.com/amarkishan" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" className="contact-icon">
                   <FaGithub />
                 </a>
                   {/* <div className="contact-icon" aria-label="Location">
